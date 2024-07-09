@@ -12,12 +12,14 @@ const ThemeMode = ({ theme, toggleTheme }) => {
           </span>
         }
         uncheckedIcon={
-          <span className="material-symbols-outlined pt-0.5 px-1">
+          <span className="material-symbols-outlined pt-0.5 px-1 text-white ">
             light_mode
           </span>
         }
         height={30}
         width={60}
+        offColor="#181a36"
+        onColor="#30346D"
       />
     </div>
   );

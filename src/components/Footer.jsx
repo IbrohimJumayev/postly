@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="fixed bottom-0 left-0 w-full text-center p-1 flex justify-center gap-1 border-y-2">
-      <span class="material-symbols-outlined">copyright</span>
+      <span className="material-symbols-outlined">copyright</span>
       <p className="mr-5">2024</p>
       <ul className="flex gap-3">
         <li>

@@ -15,7 +15,6 @@ li {
 
 li:active {
   color: dodgerblue;
-  transform: scale(1.1);
 }
 
 .blog-title {
@@ -26,17 +25,23 @@ li:active {
   font-weight: 550;
 }
 
-#light {
+body.light {
   background-color: white;
   color: black;
 }
 
-#dark {
+body.dark {
   background-color: #090d1f;
   color: white;
 }
+
 .cont {
   margin-top: 50px;
+}
+
+.active li{
+  color: dodgerblue;
+  transform: scale(0.9);
 }
 
 @media only screen and (max-width: 850px) {
